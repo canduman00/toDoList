@@ -11,21 +11,29 @@ body{
 
   background-color: rgb(23, 29, 29);
 
+  /*
   display:grid;
-  justify-items: center;
+  justify-items: center;*/
 }
 .App{
   display:grid;
   gap:2rem;
 }
 .title{
-  font-size:3rem;
-  text-align: center;
+  font-size:clamp(2rem + 2vh, 2rem + 5vh, 3rem);
+  /*text-align: center;*/
+  display:inline-block;
+  margin-inline:auto; 
+  margin-top:3rem;
+
 }
 
 .input-container{
   display:flex;
   gap:1rem;
+  width:min(95%, 500px);
+  margin-inline:auto;
+
 }
 
 
