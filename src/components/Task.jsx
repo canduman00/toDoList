@@ -23,7 +23,7 @@ function Task({taskInfo}){
 
     return (
 
-        <div className="task">
+        <div className="task content-fit">
             <input type="checkbox" onChange={checkHandler} className="task-check"></input>
             <p ref={taskRef} className="task-info">{taskInfo}</p>
             <div>

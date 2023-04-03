@@ -31,11 +31,13 @@ body{
 .input-container{
   display:flex;
   gap:1rem;
-  width:min(95%, 500px);
-  margin-inline:auto;
+  
 
 }
-
+.content-fit{
+  width:min(95%, 500px);
+  margin-inline:auto;
+}
 
 .task-input{
   background-color: rgb(8, 12, 13);

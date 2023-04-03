@@ -22,7 +22,7 @@ function TaskEdit(props){
     }
 
     return(
-        <div className="task-edit">
+        <div className="task-edit content-fit">
             <div>
                 <p className="update">Update Task</p>
             </div>

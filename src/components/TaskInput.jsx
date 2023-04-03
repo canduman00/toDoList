@@ -15,7 +15,7 @@ function TaskInput(){
     }
 
     return(
-        <div className="input-container">
+        <div className="input-container content-fit">
             <input ref={inputRef} type="text" className="task-input" placeholder="ENTER TASK"></input>
             <button onClick={clickHandler} className="btn add-btn">+</button>
         </div>
